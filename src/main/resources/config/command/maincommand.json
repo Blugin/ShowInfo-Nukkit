@@ -1,0 +1,7 @@
+{
+	"command": "showinfo",
+	"aliases": [
+		"si",
+		"showinformation"
+	]
+}

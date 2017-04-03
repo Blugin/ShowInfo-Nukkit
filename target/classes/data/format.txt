@@ -1,0 +1,3 @@
+§3Level: §b{LEVEL}   §3Exp: §b{EXP} ({EXPPERCENTAGE})%
+§3Held Item: §b{ITEMNAME} ({ITEMID}:{ITEMDAMAGE})
+§3X: §b{X}  §3Y: §b{Y}  §3Z: §b{Z}

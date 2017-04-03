@@ -1,0 +1,12 @@
+{
+	"command.showinfo": "TRUE",
+	"command.showinfo.on": "TRUE",
+	"command.showinfo.off": "TRUE",
+	"command.showinfo.enable": "OP",
+	"command.showinfo.disable": "OP",
+	"command.showinfo.indent": "OP",
+	"command.showinfo.period": "OP",
+	"command.showinfo.reload": "OP",
+	"command.showinfo.save": "OP",
+	"command.showinfo.reset": "FALSE"
+}

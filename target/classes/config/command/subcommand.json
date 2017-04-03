@@ -1,0 +1,52 @@
+{
+	"on": {
+		"command": "on",
+		"aliases": [
+		]
+	},
+	"off": {
+		"command": "off",
+		"aliases": [
+		]
+	},
+	"enable": {
+		"command": "enable",
+		"aliases": [
+			"e"
+		]
+	},
+	"disable": {
+		"command": "disable",
+		"aliases": [
+			"d"
+		]
+	},
+	"indent": {
+		"command": "indent",
+		"aliases": [
+			"i",
+			"indenting"
+		]
+	},
+	"period": {
+		"command": "period",
+		"aliases": [
+			"p"
+		]
+	},
+	"reload": {
+		"command": "reload",
+		"aliases": [
+		]
+	},
+	"save": {
+		"command": "save",
+		"aliases": [
+		]
+	},
+	"reset": {
+		"command": "reset",
+		"aliases": [
+		]
+	}
+}

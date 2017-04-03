@@ -1,0 +1,33 @@
+name: ShowInfo
+authors: DeBe
+version: 1.0.0
+main: nukkitplugin.showinfo.ShowInfo
+api: 1.0.0
+depend:
+- JsonSimpleLib
+permissions:
+  showinfo:
+    children:
+      command:
+        children:
+          command.showinfo:
+            default: true
+            children:
+              command.showinfo.on:
+                default: true
+              command.showinfo.off:
+                default: true
+              command.showinfo.enable:
+                default: op
+              command.showinfo.disable:
+                default: op
+              command.showinfo.indent:
+                default: op
+              command.showinfo.period:
+                default: op
+              command.showinfo.reload:
+                default: op
+              command.showinfo.save:
+                default: op
+              command.showinfo.reset:
+                default: false
