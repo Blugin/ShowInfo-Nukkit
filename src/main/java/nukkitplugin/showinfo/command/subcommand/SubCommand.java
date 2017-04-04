@@ -38,15 +38,15 @@ public abstract class SubCommand {
 	public abstract void execute(CommandSender sender, String[] args);
 
 	public String getName() {
-		return this.data.getCommand();
+		return data.getCommand();
 	}
 
 	public SubCommandData getData() {
-		return this.data;
+		return data;
 	}
 
 	public String getPermission() {
-		return this.permission;
+		return permission;
 	}
 
 	public String getUsage() {
@@ -54,7 +54,7 @@ public abstract class SubCommand {
 	}
 
 	public int getNeedArgCount() {
-		return this.needArgCount;
+		return needArgCount;
 	}
 
 	public boolean hasPermission(Permissible sender) {

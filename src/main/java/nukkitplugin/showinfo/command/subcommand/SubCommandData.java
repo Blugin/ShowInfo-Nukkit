@@ -12,7 +12,7 @@ public class SubCommandData {
 	}
 
 	public String getCommand() {
-		return this.command;
+		return command;
 	}
 
 	public void setCommand(String name) {
@@ -20,7 +20,7 @@ public class SubCommandData {
 	}
 
 	public ArrayList<String> getAliases() {
-		return this.aliases;
+		return aliases;
 	}
 
 	public void setAliases(ArrayList<String> aliases) {
@@ -28,6 +28,6 @@ public class SubCommandData {
 	}
 
 	public boolean equals(String string) {
-		return this.command.equalsIgnoreCase(string) || this.aliases.contains(string.toLowerCase());
+		return command.equalsIgnoreCase(string) || aliases.contains(string.toLowerCase());
 	}
 }

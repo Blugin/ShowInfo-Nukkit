@@ -11,7 +11,7 @@ public class SendInfoEvent extends PlayerEvent implements Cancellable {
 	private boolean						replace;
 
 	public static HandlerList getHandlers() {
-		return SendInfoEvent.handlers;
+		return handlers;
 	}
 
 	public SendInfoEvent(Player player, String info) {
@@ -21,11 +21,11 @@ public class SendInfoEvent extends PlayerEvent implements Cancellable {
 	public SendInfoEvent(Player player, String info, boolean replace) {
 		this.player = player;
 		this.info = info;
-		this.setReplace(replace);
+		this.replace = replace;
 	}
 
 	public String getInfo() {
-		return this.info;
+		return info;
 	}
 
 	public void setInfo(String info) {
@@ -33,7 +33,7 @@ public class SendInfoEvent extends PlayerEvent implements Cancellable {
 	}
 
 	public boolean isReplace() {
-		return this.replace;
+		return replace;
 	}
 
 	public void setReplace(boolean replace) {

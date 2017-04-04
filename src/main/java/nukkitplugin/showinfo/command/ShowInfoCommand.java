@@ -108,9 +108,9 @@ public class ShowInfoCommand extends Command {
 				if (!isNumber(args[0]))
 					sender.sendMessage(failedTranslate("commands.generic.invalidNumber", args[0]));
 				else {
-					int pushLevel = toInt(args[0]);
-					plugin.setIndent(pushLevel);
-					sender.sendMessage(successedTranslate("commands.indent.success", valueOf(pushLevel)));
+					int indent = toInt(args[0]);
+					plugin.setIndent(indent);
+					sender.sendMessage(successedTranslate("commands.indent.success", valueOf(indent)));
 				}
 			}
 		});
